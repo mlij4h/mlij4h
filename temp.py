@@ -33,7 +33,7 @@ def probability_of_two(a1, a2, a3):
             B += y - z
             D += z
     return C / (a2**a3)
-print(probability_of_two(6,10,3))
+print(probability_of_two(1,6,5))
 # this will find the probability of 2 or more successes if given a z/y chance
 # of success on iteration x. (z, y, x). as example, 5 rolls of a die where the
 # side 3 is a success has input (1, 6, 5) with 1 being the total possibilites
