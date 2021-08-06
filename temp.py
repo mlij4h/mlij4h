@@ -38,5 +38,5 @@ print(probability_of_two(1,6,5))
 # of success on iteration x. (z, y, x). as example, 5 rolls of a die where the
 # side 3 is a success has input (1, 6, 5) with 1 being the total possibilites
 # per iteration that result in success, 6 being the total possibilities, and
-# 5 being the iteration count. this code is painstakingly slow for numbers of
-# most sizes.
+# 5 being the iteration count. running this code outputs the chances of 2 or more
+# rolls of side 3. this code is painstakingly slow for numbers of most sizes. 
